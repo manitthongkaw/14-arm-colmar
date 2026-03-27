@@ -10,9 +10,9 @@
   <header>
     <nav>
       <ul class="flex justify-around md:justify-between items-center gap-4 h-16 md:px-6">
-        <li class="md:flex-grow"><a class="flex items-center" href="#home">
+        <li class="md:flex-grow"><a class="flex items-center w-fit" href="#home">
           <img src="./images/ic-logo.svg">
-          <span class="hidden md:inline"><strong>COLMAR</strong>ACADEMY</span>
+          <span class="hidden md:inline pl-1"><strong>COLMAR</strong>ACADEMY</span>
         </a></li>
         <li><a href="#campus">
           <img class="md:hidden h-8" src="./images/ic-on-campus.svg">
@@ -22,7 +22,7 @@
           <img class="md:hidden h-8" src="./images/ic-online.svg">
           <span class="hidden md:inline">Online</span>
         </a></li>
-        <li class="hidden md:inline"><a class=" href="#companies">
+        <li class="hidden md:inline"><a href="#companies">
           <span>For companies</span>
         </a></li>
         <li><a href="#signin">
@@ -35,7 +35,7 @@
   <main>
     <section class="hero md:flex md:items-center md:gap-6 md:px-6 md:py-8 bg-gray-300">
       <div class="hero__image md:w-3/5">
-        <img src="./images/banner.jpg">
+        <img class="w-full" src="./images/banner.jpg">
       </div>
       <div class="hero__content md:w-2/5 px-4 py-8 md:p-0">
         <h1 class="text-4xl font-bold text-gray-700">Learn something new everyday</h1>
@@ -46,7 +46,7 @@
     </section>
     <section class="information md:flex p-4 pb-8 md:p-0">
       <div class="information__main hidden md:block md:w-3/5 px-6 py-8 border-r border-gray-200">
-        <img src="./images/information-main.jpg">
+        <img class="w-full" src="./images/information-main.jpg">
         <h2 class="text-3xl font-extrabold mt-8">It doesn't hurt to keep practicing</h2>
         <p class="text-lg mt-6">"curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."<br>
         <br>
@@ -86,7 +86,7 @@
       <h2 class="w-full text-3xl font-extrabold text-center">Start learning</h2>
       <div class="course-list flex flex-col md:flex-row md:flex-wrap gap-2 md:gap-8 mt-4 md:mt-8">
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-software.jpg">
+          <img class="hidden md:block w-full" src="./images/course-software.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Software engineering</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-computer-art.jpg">
+          <img class="hidden md:block w-full" src="./images/course-computer-art.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Computer art</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -102,7 +102,7 @@
           </div>
         </div>
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-design.jpg">
+          <img class="hidden md:block w-full" src="./images/course-design.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Design</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-data.jpg">
+          <img class="hidden md:block w-full" src="./images/course-data.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Data</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -118,7 +118,7 @@
           </div>
         </div>
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-business.jpg">
+          <img class="hidden md:block w-full" src="./images/course-business.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Business</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -126,7 +126,7 @@
           </div>
         </div>
         <div class="course__list--item md:flex-1 md:min-w-1/4 bg-gray-200 md:bg-white">
-          <img class="hidden md:block" src="./images/course-marketing.jpg">
+          <img class="hidden md:block w-full" src="./images/course-marketing.jpg">
           <div class="course__item--content p-4 pb-6">
             <h3 class="text-2xl font-semibold">Marketing</h3>
             <p class="hidden md:block uppercase text-gray-500 my-2">Courses</p>
@@ -140,7 +140,7 @@
       <div class="thesis__container md:flex md:gap-6 mt-4 md:mt-8 md:ml-6">
         <div class="thesis__main md:w-3/5">
           <div class="thesis__main--item">
-            <video controls src="./videos/thesis.mp4"></video>
+            <video class="w-full" controls src="./videos/thesis.mp4"></video>
             <div class="thesis__main--item--content hidden md:block">
               <h3 class="text-2xl font-semibold mt-6">Reimagine urban</h3>
               <p class="mt-2">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristiquat, tristique ligula."</p>
