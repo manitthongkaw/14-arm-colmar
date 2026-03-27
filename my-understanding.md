@@ -34,3 +34,10 @@
 - กำหนด flex-col md:flex-row md:flex-wrap สำหรับมือถือและคอมพิวเตอร์
 - ตกแต่งpadding/gap/bg สำหรับมือถือก่อน
 - ตกแต่งpadding/margin/gap/bg/color/fontsize สำหรับคอมพิวเตอร์
+
+## 06 thesis
+- สร้าง layout หลัก และแยก col ซ้าย 60% / ขวา 40% และใส่ gap
+- แล้วใส่ข้อมูล/รูป/วิดีโอให้ครบ
+- เพิ่ม hidden md:block สำหรับ col ซ้าย ในมือถือ
+- ตกแต่งpadding/margin สำหรับมือถือก่อน
+- ตกแต่งmargin/fontsize สำหรับคอมพิวเตอร์
