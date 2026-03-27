@@ -7,9 +7,34 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-  <header></header>
+  <header>
+    <nav>
+      <ul class="flex justify-around md:justify-between items-center gap-4 h-16 md:px-6">
+        <li class="md:flex-grow"><a class="flex items-center" href="#home">
+          <img src="./images/ic-logo.svg">
+          <span class="hidden md:inline"><strong>COLMAR</strong>ACADEMY</span>
+        </a></li>
+        <li><a href="#campus">
+          <img class="md:hidden h-8" src="./images/ic-on-campus.svg">
+          <span class="hidden md:inline">On campus</span>
+        </a></li>
+        <li><a href="#online">
+          <img class="md:hidden h-8" src="./images/ic-online.svg">
+          <span class="hidden md:inline">Online</span>
+        </a></li>
+        <li class="hidden md:inline"><a class=" href="#companies">
+          <span>For companies</span>
+        </a></li>
+        <li><a href="#signin">
+          <img class="md:hidden h-8" src="./images/ic-login.svg">
+          <span class="hidden md:inline">Sign in</span>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <section class="hero"></section>
+    <section class="hero">
+    </section>
     <section class="information"></section>
     <section class="course"></section>
     <section class="thesis"></section>
