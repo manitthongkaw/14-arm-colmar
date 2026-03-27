@@ -26,3 +26,11 @@
 - ตกแต่งpadding/margin/bg/color/fontsize สำหรับมือถือก่อน
 - กำหนด width ของแต่ละ col ซ้าย-ขวา และ col ด้านในของด้านขวา
 - ตกแต่งpadding/margin/bg/color/fontsize สำหรับคอมพิวเตอร์
+
+## 05 course
+- เขียน item list ของแต่ละ block
+- แล้วใส่ข้อมูล/รูปให้ครบ
+- จัดการรูปภาพและข้อความด้วย hidden md:block ให้แสดงเฉพาะมือถือ
+- กำหนด flex-col md:flex-row md:flex-wrap สำหรับมือถือและคอมพิวเตอร์
+- ตกแต่งpadding/gap/bg สำหรับมือถือก่อน
+- ตกแต่งpadding/margin/gap/bg/color/fontsize สำหรับคอมพิวเตอร์
